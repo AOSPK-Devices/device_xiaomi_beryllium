@@ -9,6 +9,8 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 # Inherit some common Kraken stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+CUSTOM_MAINTAINER := clang11
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_beryllium
 PRODUCT_DEVICE := beryllium
