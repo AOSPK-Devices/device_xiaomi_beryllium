@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common Kraken stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 CUSTOM_MAINTAINER := clang11
 
